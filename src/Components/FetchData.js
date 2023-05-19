@@ -65,12 +65,14 @@ function FetchData() {
                 <div className='text_data'>{user.phone}</div>
                 <div className='text_head'>Email</div>
                 <div className='text_data'>{user.email}</div>
-              </div>
-              <div className='row3'>
                 <div className='text_head'>Address</div>
                 <div className='text_data'>{user.address.street}</div>
-                <div className='text_head'>City and Zipcode</div>
-                <div className='text_data'>{user.address.city} {user.address.zipcode}</div>
+              </div>
+              <div className='row3'>
+                <div className='text_head'>City</div>
+                <div className='text_data'>{user.address.city}</div>
+                <div className='text_head'>Zipcode</div>
+                <div className='text_data'>{user.address.zipcode}</div>
               </div>
 
             </div>))

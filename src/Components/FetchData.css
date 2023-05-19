@@ -92,21 +92,22 @@ table{
     }
     .text_data{
         font-size: small;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
     }
+    
     .row2{
-        position: relative; left:20px; top:20px;
+        position: relative; left:20px; top:10px;
     }
     .row3{
-        position: relative; left:200px; bottom: 88px;
+        position: relative; left:220px; bottom: 136px;
     }
   }
 
 @media only screen and (max-width: 400px){
     .row2{
-        position: relative; left:10px; top:20px;
+        position: relative; left:10px; top:10px;
     }
     .row3{
-        position: relative; left:150px; bottom: 88px;
+        position: relative; left:175px; bottom: 136px;
     }
   }  
